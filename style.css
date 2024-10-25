@@ -54,7 +54,7 @@ nav {
 }
 
 nav a:hover{
-    background-color: azure;
+    background-color: white;
 }
 
 body{
@@ -64,8 +64,8 @@ body{
 img{
  height: 35%;
  position: sticky;
- padding-top: 100px;
- margin-left: 10px;
+ padding-top: 75px;
+ padding-left: 80px;
 }
 
 
@@ -85,4 +85,19 @@ img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 20px;
 
+}
+
+.Contact{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 125px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.Contact:hover{
+    background-color: white;
 }
