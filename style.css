@@ -40,19 +40,27 @@ nav a {
     float: left;
     align-items: center;
     padding: 10px;
-
-
-    
-
 }
 
 nav {
     background-color: gray;
     width: 65%;
     overflow: hidden;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.logo{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo:hover{
+    color: white;
+}
 nav a:hover{
     background-color: white;
 }
@@ -62,42 +70,110 @@ body{
 }
 
 img{
- height: 35%;
+ height: 45%;
  position: sticky;
- padding-top: 75px;
- padding-left: 80px;
+ padding-top: 50px;
+ padding-left: 50px;
 }
 
 
-.section{
+
+
+.work{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
     margin-top: 250px;
     background-color: white;
-    height: 125px;
     width: auto;
     border-radius: 30px;
-    border: 5px solid black ;
+    border: 5px solid black;
     justify-content: center;
+    max-width: 90%;
+   
 }
 
 
 
-.hello{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 20px;
+.work h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.Contact{
+.work p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    
+}
+
+
+.Btn{
     width: 100px;
     height: 30px;
     text-align: center;
     background-color: lightgray;
     border-radius: 10px;
     border: 2px solid black;
-    margin-left: 125px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    transition: all 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Contact:hover{
+.Btn:hover{
     background-color: white;
+    transform: translateY(-10px)
 }
+
+.articles{
+   padding: 40px 20px;
+   margin: auto;
+   max-width: 800px;
+}
+
+.articles h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 220, 220);
+}
+
+.article-card{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.article-card img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.article-content h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.article-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
