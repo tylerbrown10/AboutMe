@@ -102,6 +102,7 @@ img{
 .work p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: smaller;
+    text-wrap: wrap;
     
 }
 
