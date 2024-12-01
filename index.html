@@ -6,29 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+            #container {
+            display: flex;
+            flex-direction: row;
+        }
+        @media (orientation: portrait) {
+            #container {
+                flex-direction: column;
+            }
+        }
+
+        </style>
 <body>
 
     <nav>
         <div class = "logo">Tyler Brown</div>
         <div class = "Navigation">
             <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
             <a href="My-Articles.html">My Articles</a>
-            <a href="Fun-Facts.html">Fun Facts</a>
         </div>
     </nav>
 
-    <div class = "Welcome"> <!-- Introduction and photo -->
-        <div class = "column-left">
+    <div id="container">
+        <img src="Headshot.jpeg" alt="Tyler Brown Headshot" class="headshot">
+        <div class="Intro">
             <h1>Tyler Brown</h1>
             <p>I am a sophomore at Northwestern University from Ridgefield, Connecticut studying Journalism and Entrepreneurship.</p>
-            <div class="Contact"> <!-- Contact button -->
-                <button class="Btn"> Contact Me</button>
+            <div class="Contact">
+                <a href="https://linktr.ee/tylerbrown10">
+                    <button class="Btn">Contact Me</button>
+                </a>
             </div>
         </div>
-        <img src="Headshot.jpeg" alt="Tyler Brown Headshot" class = "headshot">
     </div>
-
     
     <div class = "work">
         <h1>My work</h1>
